@@ -1,0 +1,197 @@
+/*HTML CSS*/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+p {
+  color: #8f8f8f;
+}
+h3 {
+font-size: 4rem;
+font-weight: bolder;
+}
+h2 {
+  font-weight: bold ;
+  color: #fff;
+  font-size: 2rem ;
+}
+em {
+  color: #fff;
+}
+section {
+  position: relative;
+  height: 700px;
+}
+
+/*TITLE ID CSS*/
+
+#title {
+  background-color: #ff4c68;
+}
+#features {
+   padding:7% 15%;
+}
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+}
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 50px;
+}
+#testimonials {
+  position: relative;
+  height: 500px;
+
+}
+#press {
+  position: relative;
+  height: 150px;
+  z-index: 1;
+}
+#cta {
+  background-color: #ff4c68;
+  height: 300px;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
+  padding-top: 60px;
+  margin-top: 150px;
+
+}
+#features {
+  background-color: white;
+  height: 600px;
+  padding-top: 200px;
+}
+#footer {
+  padding: 50px;
+  text-align: center;
+}
+/*CLASSES*/
+
+.container-fluid {
+  padding: 3% 15%
+}
+.navbar {
+  background-color: #ff4c68;
+}
+.row {
+  padding-left: 46px;
+  bottom: 40px;
+  color: white;
+  padding-top: 120px;
+}
+.phoneimage {
+  position: relative;
+  bottom: 90px;
+  transform: rotate(22.5deg);
+  width: 47%;
+  margin-left: 80px;
+}
+/*NAVBAR*/
+.title1 {
+  padding-bottom: 50px;
+  font-size: 4rem;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.title0 {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.grid-usage {
+  color: black;
+  align-content: center;
+}
+.image-usage {
+  width:150px;
+
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  font-family: 'Open Sans', sans-serif;
+}
+.testimonial-image {
+  width:10%;
+  border-radius:100%;
+  margin:50px;
+}
+.press-logo{
+  width: 15%;
+}
+.card-header {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  margin: 20px;
+}
+.card-body {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+  margin: 20px;
+}
+.price-heading {
+  padding: 3%;
+  text-align: center;
+}
+.price-body {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.grid-usage {
+  position: relative;
+  background-color: white;
+  z-index: 10;
+  height: 200px;
+}
+.final-note {
+  padding: 40px;
+}
+.social-media {
+  margin: 20px 10px;
+}
+
+/*MEDIA CSS CODE WHEN THE RESOLUTION IS LESS THAN 1028px THIS WILL COME IN EFFECT*/
+
+@media(max-width: 1028px) {
+  #features {
+    margin-top: 700px;
+    margin-bottom: 200px;
+  }
+  #pricing {
+    height: 1400px;
+  }
+  #press {
+    height: 100px;
+  }
+  #testimonials {
+    height: 400px;
+  }
+  .phoneimage {
+    position: static;
+    transform: rotate(0);
+    margin-right: 90px;
+  }
+  .container-fluid {
+    background-color: #ff4c68;
+    text-align: center;
+  }
+
+}

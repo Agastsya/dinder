@@ -1,2 +1,1 @@
-# dinder
-DINDER
+TinDog Starting Files
